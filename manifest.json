@@ -1,0 +1,12 @@
+{
+	"manifest_version":2,
+	"name": "terminal-plugin",
+	"description": "quick launch terminal_plugin",
+	"version":"1.0.0",
+	"icons":{"128":"tm.png"},
+"browser_action":{
+	"default_icon":"tm.png",
+	"default_popup":"popup.html"
+},
+"permissions":["activeTab"]
+}
